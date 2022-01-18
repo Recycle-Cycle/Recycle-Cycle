@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'cardScreen.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'list/listPage.dart';
 import 'proportion/proportionPage.dart';
 
 //앱의 첫번째 페이지
@@ -53,7 +54,10 @@ class mainPage extends StatelessWidget {
               Container(
                 width: size.width * 0.8,
                 child: ElevatedButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => ListPage()));
+                  },
                   child: Text('Recycled List',
                       style: TextStyle(color: Colors.grey)),
                   style: ElevatedButton.styleFrom(
