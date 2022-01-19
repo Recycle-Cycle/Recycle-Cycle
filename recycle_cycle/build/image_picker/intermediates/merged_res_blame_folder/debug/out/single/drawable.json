@@ -1,18 +1,18 @@
 [
     {
-        "merged": "C:\\Users\\user\\Desktop\\Recycle-Cycle\\recycle_cycle\\build\\image_picker\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
-        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-2\\files-2.1\\8ec5a4192b12a309556d408337153575\\core-1.6.0\\res\\drawable\\notification_bg_low.xml"
+        "merged": "/Users/seol-yeon/Desktop/Recycle-Cycle/recycle_cycle/build/image_picker/intermediates/res/merged/debug/drawable/notification_bg.xml",
+        "source": "/Users/seol-yeon/.gradle/caches/transforms-2/files-2.1/8ec5a4192b12a309556d408337153575/core-1.6.0/res/drawable/notification_bg.xml"
     },
     {
-        "merged": "C:\\Users\\user\\Desktop\\Recycle-Cycle\\recycle_cycle\\build\\image_picker\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
-        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-2\\files-2.1\\8ec5a4192b12a309556d408337153575\\core-1.6.0\\res\\drawable\\notification_bg.xml"
+        "merged": "/Users/seol-yeon/Desktop/Recycle-Cycle/recycle_cycle/build/image_picker/intermediates/res/merged/debug/drawable/notification_tile_bg.xml",
+        "source": "/Users/seol-yeon/.gradle/caches/transforms-2/files-2.1/8ec5a4192b12a309556d408337153575/core-1.6.0/res/drawable/notification_tile_bg.xml"
     },
     {
-        "merged": "C:\\Users\\user\\Desktop\\Recycle-Cycle\\recycle_cycle\\build\\image_picker\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
-        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-2\\files-2.1\\8ec5a4192b12a309556d408337153575\\core-1.6.0\\res\\drawable\\notification_icon_background.xml"
+        "merged": "/Users/seol-yeon/Desktop/Recycle-Cycle/recycle_cycle/build/image_picker/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
+        "source": "/Users/seol-yeon/.gradle/caches/transforms-2/files-2.1/8ec5a4192b12a309556d408337153575/core-1.6.0/res/drawable/notification_icon_background.xml"
     },
     {
-        "merged": "C:\\Users\\user\\Desktop\\Recycle-Cycle\\recycle_cycle\\build\\image_picker\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
-        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-2\\files-2.1\\8ec5a4192b12a309556d408337153575\\core-1.6.0\\res\\drawable\\notification_tile_bg.xml"
+        "merged": "/Users/seol-yeon/Desktop/Recycle-Cycle/recycle_cycle/build/image_picker/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
+        "source": "/Users/seol-yeon/.gradle/caches/transforms-2/files-2.1/8ec5a4192b12a309556d408337153575/core-1.6.0/res/drawable/notification_bg_low.xml"
     }
 ]

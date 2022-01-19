@@ -36,7 +36,7 @@ class _listPageState extends State<ListPage> {
 
               // 페이지 이름
               Text(
-                'Recylced List',
+                'Recycled List',
                 style: TextStyle(color: const Color(0xff1ea271), fontSize: 30),
               ),
 

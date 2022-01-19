@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:recycle_cycle/ui/camera/cameraScreen.dart';
 import 'cardScreen.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
 import '../list/listPage.dart';
 import '../proportion/proportionPage.dart';
 
