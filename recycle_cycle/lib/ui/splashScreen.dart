@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'dart:async';
 
-import 'package:recycle_cycle/ui/mainPage.dart';
+import 'package:recycle_cycle/ui/main/mainPage.dart';
 
 //스플래시 클래스
 class splashScreen extends StatefulWidget {
