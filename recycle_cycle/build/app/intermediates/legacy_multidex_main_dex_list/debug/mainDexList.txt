@@ -101,6 +101,8 @@ androidx/core/view/WindowInsetsAnimationCompat$Callback$DispatchMode.class
 androidx/core/view/WindowInsetsCompat$Type$InsetsType.class
 androidx/core/view/accessibility/AccessibilityEventCompat$ContentChangeType.class
 androidx/core/widget/TextViewCompat$AutoSizeTextType.class
+androidx/exifinterface/media/ExifInterface$ExifStreamType.class
+androidx/exifinterface/media/ExifInterface$IfdType.class
 androidx/lifecycle/Lifecycle$Event.class
 androidx/lifecycle/OnLifecycleEvent.class
 androidx/multidex/MultiDex$V14$ElementConstructor.class
@@ -441,3 +443,4 @@ org/jetbrains/annotations/NotNull.class
 org/jetbrains/annotations/Nullable.class
 org/jetbrains/annotations/PropertyKey.class
 org/jetbrains/annotations/TestOnly.class
+org/tensorflow/lite/annotations/UsedByReflection.class

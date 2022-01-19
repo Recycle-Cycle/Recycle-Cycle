@@ -5,25 +5,25 @@
 5    android:versionName="1.0.0" >
 6
 7    <uses-sdk
-8        android:minSdkVersion="19"
+8        android:minSdkVersion="21"
 9        android:targetSdkVersion="31" />
 10    <!--
 11         Flutter needs it to communicate with the running application
 12         to allow setting breakpoints, to provide hot reload, etc.
 13    -->
 14    <uses-permission android:name="android.permission.INTERNET" />
-14-->C:\Users\user\Desktop\Recycle-Cycle\recycle_cycle\android\app\src\debug\AndroidManifest.xml:6:5-66
-14-->C:\Users\user\Desktop\Recycle-Cycle\recycle_cycle\android\app\src\debug\AndroidManifest.xml:6:22-64
+14-->C:\Users\cho\Desktop\JunJangE\github\Recycle-Cycle\recycle_cycle\android\app\src\debug\AndroidManifest.xml:6:5-66
+14-->C:\Users\cho\Desktop\JunJangE\github\Recycle-Cycle\recycle_cycle\android\app\src\debug\AndroidManifest.xml:6:22-64
 15    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
 16    <!-- <uses-sdk android:minSdkVersion="14" /> -->
 17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-17-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\875fba2a3c7d150fb639a449876b754f\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:13:5-79
-17-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\875fba2a3c7d150fb639a449876b754f\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:13:22-76
+17-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\cho\.gradle\caches\transforms-2\files-2.1\875fba2a3c7d150fb639a449876b754f\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:13:5-79
+17-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\cho\.gradle\caches\transforms-2\files-2.1\875fba2a3c7d150fb639a449876b754f\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:13:22-76
 18
 19    <application
 20        android:name="android.app.Application"
 21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-21-->[androidx.core:core:1.6.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\8ec5a4192b12a309556d408337153575\core-1.6.0\AndroidManifest.xml:24:18-86
+21-->[androidx.core:core:1.6.0] C:\Users\cho\.gradle\caches\transforms-2\files-2.1\8ec5a4192b12a309556d408337153575\core-1.6.0\AndroidManifest.xml:24:18-86
 22        android:debuggable="true"
 23        android:icon="@mipmap/launcher_icon"
 24        android:label="recycle_cycle" >
@@ -61,61 +61,78 @@
 56            android:value="2" />
 57
 58        <service
-58-->[:cloud_firestore] C:\Users\user\Desktop\Recycle-Cycle\recycle_cycle\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+58-->[:cloud_firestore] C:\Users\cho\Desktop\JunJangE\github\Recycle-Cycle\recycle_cycle\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
 59            android:name="com.google.firebase.components.ComponentDiscoveryService"
-59-->[:cloud_firestore] C:\Users\user\Desktop\Recycle-Cycle\recycle_cycle\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
+59-->[:cloud_firestore] C:\Users\cho\Desktop\JunJangE\github\Recycle-Cycle\recycle_cycle\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
 60            android:directBootAware="true"
-60-->[com.google.firebase:firebase-common:20.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\e8c12af64c0d197211b7d090cb61cdf8\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+60-->[com.google.firebase:firebase-common:20.0.0] C:\Users\cho\.gradle\caches\transforms-2\files-2.1\e8c12af64c0d197211b7d090cb61cdf8\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
 61            android:exported="false" >
-61-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\875fba2a3c7d150fb639a449876b754f\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:19:13-37
+61-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\cho\.gradle\caches\transforms-2\files-2.1\875fba2a3c7d150fb639a449876b754f\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:19:13-37
 62            <meta-data
-62-->[:cloud_firestore] C:\Users\user\Desktop\Recycle-Cycle\recycle_cycle\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+62-->[:cloud_firestore] C:\Users\cho\Desktop\JunJangE\github\Recycle-Cycle\recycle_cycle\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
 63                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
-63-->[:cloud_firestore] C:\Users\user\Desktop\Recycle-Cycle\recycle_cycle\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-134
+63-->[:cloud_firestore] C:\Users\cho\Desktop\JunJangE\github\Recycle-Cycle\recycle_cycle\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-134
 64                android:value="com.google.firebase.components.ComponentRegistrar" />
-64-->[:cloud_firestore] C:\Users\user\Desktop\Recycle-Cycle\recycle_cycle\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+64-->[:cloud_firestore] C:\Users\cho\Desktop\JunJangE\github\Recycle-Cycle\recycle_cycle\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
 65            <meta-data
-65-->[:firebase_core] C:\Users\user\Desktop\Recycle-Cycle\recycle_cycle\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+65-->[:firebase_core] C:\Users\cho\Desktop\JunJangE\github\Recycle-Cycle\recycle_cycle\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
 66                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
-66-->[:firebase_core] C:\Users\user\Desktop\Recycle-Cycle\recycle_cycle\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+66-->[:firebase_core] C:\Users\cho\Desktop\JunJangE\github\Recycle-Cycle\recycle_cycle\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
 67                android:value="com.google.firebase.components.ComponentRegistrar" />
-67-->[:firebase_core] C:\Users\user\Desktop\Recycle-Cycle\recycle_cycle\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+67-->[:firebase_core] C:\Users\cho\Desktop\JunJangE\github\Recycle-Cycle\recycle_cycle\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
 68            <meta-data
-68-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\875fba2a3c7d150fb639a449876b754f\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:20:13-22:85
+68-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\cho\.gradle\caches\transforms-2\files-2.1\875fba2a3c7d150fb639a449876b754f\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:20:13-22:85
 69                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
-69-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\875fba2a3c7d150fb639a449876b754f\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:21:17-111
+69-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\cho\.gradle\caches\transforms-2\files-2.1\875fba2a3c7d150fb639a449876b754f\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:21:17-111
 70                android:value="com.google.firebase.components.ComponentRegistrar" />
-70-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\875fba2a3c7d150fb639a449876b754f\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:22:17-82
+70-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\cho\.gradle\caches\transforms-2\files-2.1\875fba2a3c7d150fb639a449876b754f\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:22:17-82
 71        </service>
 72
 73        <provider
-73-->[com.google.firebase:firebase-common:20.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\e8c12af64c0d197211b7d090cb61cdf8\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
-74            android:name="com.google.firebase.provider.FirebaseInitProvider"
-74-->[com.google.firebase:firebase-common:20.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\e8c12af64c0d197211b7d090cb61cdf8\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
-75            android:authorities="com.example.recycle_cycle.firebaseinitprovider"
-75-->[com.google.firebase:firebase-common:20.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\e8c12af64c0d197211b7d090cb61cdf8\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
-76            android:directBootAware="true"
-76-->[com.google.firebase:firebase-common:20.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\e8c12af64c0d197211b7d090cb61cdf8\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
-77            android:exported="false"
-77-->[com.google.firebase:firebase-common:20.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\e8c12af64c0d197211b7d090cb61cdf8\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
-78            android:initOrder="100" />
-78-->[com.google.firebase:firebase-common:20.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\e8c12af64c0d197211b7d090cb61cdf8\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
-79
-80        <activity
-80-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\0813e45a0b3806629b40dbeb70c75a60\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
-81            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-81-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\0813e45a0b3806629b40dbeb70c75a60\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
-82            android:exported="false"
-82-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\0813e45a0b3806629b40dbeb70c75a60\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
-83            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-83-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\0813e45a0b3806629b40dbeb70c75a60\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
-84
-85        <meta-data
-85-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\e31537fb3ca3accaea0d4d9ddb9631cc\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
-86            android:name="com.google.android.gms.version"
-86-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\e31537fb3ca3accaea0d4d9ddb9631cc\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
-87            android:value="@integer/google_play_services_version" />
-87-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\e31537fb3ca3accaea0d4d9ddb9631cc\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
-88    </application>
-89
-90</manifest>
+73-->[:image_picker] C:\Users\cho\Desktop\JunJangE\github\Recycle-Cycle\recycle_cycle\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-16:20
+74            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+74-->[:image_picker] C:\Users\cho\Desktop\JunJangE\github\Recycle-Cycle\recycle_cycle\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-82
+75            android:authorities="com.example.recycle_cycle.flutter.image_provider"
+75-->[:image_picker] C:\Users\cho\Desktop\JunJangE\github\Recycle-Cycle\recycle_cycle\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-74
+76            android:exported="false"
+76-->[:image_picker] C:\Users\cho\Desktop\JunJangE\github\Recycle-Cycle\recycle_cycle\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-37
+77            android:grantUriPermissions="true" >
+77-->[:image_picker] C:\Users\cho\Desktop\JunJangE\github\Recycle-Cycle\recycle_cycle\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-47
+78            <meta-data
+78-->[:image_picker] C:\Users\cho\Desktop\JunJangE\github\Recycle-Cycle\recycle_cycle\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:75
+79                android:name="android.support.FILE_PROVIDER_PATHS"
+79-->[:image_picker] C:\Users\cho\Desktop\JunJangE\github\Recycle-Cycle\recycle_cycle\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-67
+80                android:resource="@xml/flutter_image_picker_file_paths" />
+80-->[:image_picker] C:\Users\cho\Desktop\JunJangE\github\Recycle-Cycle\recycle_cycle\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-72
+81        </provider>
+82        <provider
+82-->[com.google.firebase:firebase-common:20.0.0] C:\Users\cho\.gradle\caches\transforms-2\files-2.1\e8c12af64c0d197211b7d090cb61cdf8\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+83            android:name="com.google.firebase.provider.FirebaseInitProvider"
+83-->[com.google.firebase:firebase-common:20.0.0] C:\Users\cho\.gradle\caches\transforms-2\files-2.1\e8c12af64c0d197211b7d090cb61cdf8\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+84            android:authorities="com.example.recycle_cycle.firebaseinitprovider"
+84-->[com.google.firebase:firebase-common:20.0.0] C:\Users\cho\.gradle\caches\transforms-2\files-2.1\e8c12af64c0d197211b7d090cb61cdf8\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+85            android:directBootAware="true"
+85-->[com.google.firebase:firebase-common:20.0.0] C:\Users\cho\.gradle\caches\transforms-2\files-2.1\e8c12af64c0d197211b7d090cb61cdf8\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+86            android:exported="false"
+86-->[com.google.firebase:firebase-common:20.0.0] C:\Users\cho\.gradle\caches\transforms-2\files-2.1\e8c12af64c0d197211b7d090cb61cdf8\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+87            android:initOrder="100" />
+87-->[com.google.firebase:firebase-common:20.0.0] C:\Users\cho\.gradle\caches\transforms-2\files-2.1\e8c12af64c0d197211b7d090cb61cdf8\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+88
+89        <activity
+89-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\cho\.gradle\caches\transforms-2\files-2.1\0813e45a0b3806629b40dbeb70c75a60\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+90            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+90-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\cho\.gradle\caches\transforms-2\files-2.1\0813e45a0b3806629b40dbeb70c75a60\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+91            android:exported="false"
+91-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\cho\.gradle\caches\transforms-2\files-2.1\0813e45a0b3806629b40dbeb70c75a60\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+92            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+92-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\cho\.gradle\caches\transforms-2\files-2.1\0813e45a0b3806629b40dbeb70c75a60\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+93
+94        <meta-data
+94-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\cho\.gradle\caches\transforms-2\files-2.1\e31537fb3ca3accaea0d4d9ddb9631cc\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+95            android:name="com.google.android.gms.version"
+95-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\cho\.gradle\caches\transforms-2\files-2.1\e31537fb3ca3accaea0d4d9ddb9631cc\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+96            android:value="@integer/google_play_services_version" />
+96-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\cho\.gradle\caches\transforms-2\files-2.1\e31537fb3ca3accaea0d4d9ddb9631cc\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+97    </application>
+98
+99</manifest>
