@@ -101,6 +101,9 @@ class _CameraScreenState extends State<CameraScreen> {
                   mainAxisSize: MainAxisSize.min,
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: <Widget>[
+                    // 파이어베이스 데이터 추가
+                    // insertData(_outputs![0]['label'].split(" ")[1].toString()),
+
                     Container(
                       child: Image.asset(
                         'assets/${_outputs![0]['label'].split(" ")[1].toString()}_illu.png',
@@ -159,13 +162,6 @@ class _CameraScreenState extends State<CameraScreen> {
                   mainAxisSize: MainAxisSize.min,
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: <Widget>[
-                    Container(
-                        // child: Image.asset(
-                        //   'assets/plastic.png',
-                        //   width: 200,
-                        //   height: 200,
-                        // ),
-                        ),
                     Text(
                       "데이터가 없거나 잘못된 이미지 입니다.",
                       style: TextStyle(
