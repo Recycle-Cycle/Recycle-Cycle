@@ -71,6 +71,15 @@
         </service>
 
         <provider
+            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+            android:authorities="com.example.recycle_cycle.flutter.image_provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/flutter_image_picker_file_paths" />
+        </provider>
+        <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
             android:authorities="com.example.recycle_cycle.firebaseinitprovider"
             android:directBootAware="true"

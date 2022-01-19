@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:recycle_cycle/ui/cameraScreen.dart';
 import 'cardScreen.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'list/listPage.dart';
@@ -41,7 +42,10 @@ class mainPage extends StatelessWidget {
               Container(
                 width: size.width * 0.8,
                 child: ElevatedButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => CameraScreen()));
+                  },
                   child: Text('Classify'),
                   style: ElevatedButton.styleFrom(
                       primary: Colors.green,
