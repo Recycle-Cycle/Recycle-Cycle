@@ -12,18 +12,18 @@
 12         to allow setting breakpoints, to provide hot reload, etc.
 13    -->
 14    <uses-permission android:name="android.permission.INTERNET" />
-14-->C:\Users\user\Desktop\Recycle-Cycle\recycle_cycle\android\app\src\debug\AndroidManifest.xml:6:5-66
-14-->C:\Users\user\Desktop\Recycle-Cycle\recycle_cycle\android\app\src\debug\AndroidManifest.xml:6:22-64
+14-->/Users/seol-yeon/Desktop/Recycle-Cycle/recycle_cycle/android/app/src/debug/AndroidManifest.xml:6:5-66
+14-->/Users/seol-yeon/Desktop/Recycle-Cycle/recycle_cycle/android/app/src/debug/AndroidManifest.xml:6:22-64
 15    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
 16    <!-- <uses-sdk android:minSdkVersion="14" /> -->
 17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-17-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\875fba2a3c7d150fb639a449876b754f\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:13:5-79
-17-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\875fba2a3c7d150fb639a449876b754f\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:13:22-76
+17-->[com.google.firebase:firebase-firestore:24.0.0] /Users/seol-yeon/.gradle/caches/transforms-2/files-2.1/875fba2a3c7d150fb639a449876b754f/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:13:5-79
+17-->[com.google.firebase:firebase-firestore:24.0.0] /Users/seol-yeon/.gradle/caches/transforms-2/files-2.1/875fba2a3c7d150fb639a449876b754f/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:13:22-76
 18
 19    <application
 20        android:name="android.app.Application"
 21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-21-->[androidx.core:core:1.6.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\8ec5a4192b12a309556d408337153575\core-1.6.0\AndroidManifest.xml:24:18-86
+21-->[androidx.core:core:1.6.0] /Users/seol-yeon/.gradle/caches/transforms-2/files-2.1/8ec5a4192b12a309556d408337153575/core-1.6.0/AndroidManifest.xml:24:18-86
 22        android:debuggable="true"
 23        android:icon="@mipmap/launcher_icon"
 24        android:label="recycle_cycle" >
@@ -60,80 +60,79 @@
 55            android:name="flutterEmbedding"
 56            android:value="2" />
 57
-58        <provider
-58-->[:image_picker] C:\Users\user\Desktop\Recycle-Cycle\recycle_cycle\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-16:20
-59            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
-59-->[:image_picker] C:\Users\user\Desktop\Recycle-Cycle\recycle_cycle\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-82
-60            android:authorities="com.example.recycle_cycle.flutter.image_provider"
-60-->[:image_picker] C:\Users\user\Desktop\Recycle-Cycle\recycle_cycle\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-74
-61            android:exported="false"
-61-->[:image_picker] C:\Users\user\Desktop\Recycle-Cycle\recycle_cycle\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-37
-62            android:grantUriPermissions="true" >
-62-->[:image_picker] C:\Users\user\Desktop\Recycle-Cycle\recycle_cycle\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-47
-63            <meta-data
-63-->[:image_picker] C:\Users\user\Desktop\Recycle-Cycle\recycle_cycle\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:75
-64                android:name="android.support.FILE_PROVIDER_PATHS"
-64-->[:image_picker] C:\Users\user\Desktop\Recycle-Cycle\recycle_cycle\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-67
-65                android:resource="@xml/flutter_image_picker_file_paths" />
-65-->[:image_picker] C:\Users\user\Desktop\Recycle-Cycle\recycle_cycle\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-72
-66        </provider>
-67
-68        <service
-68-->[:cloud_firestore] C:\Users\user\Desktop\Recycle-Cycle\recycle_cycle\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
-69            android:name="com.google.firebase.components.ComponentDiscoveryService"
-69-->[:cloud_firestore] C:\Users\user\Desktop\Recycle-Cycle\recycle_cycle\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
-70            android:directBootAware="true"
-70-->[com.google.firebase:firebase-common:20.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\e8c12af64c0d197211b7d090cb61cdf8\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
-71            android:exported="false" >
-71-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\875fba2a3c7d150fb639a449876b754f\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:19:13-37
-72            <meta-data
-72-->[:cloud_firestore] C:\Users\user\Desktop\Recycle-Cycle\recycle_cycle\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
-73                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
-73-->[:cloud_firestore] C:\Users\user\Desktop\Recycle-Cycle\recycle_cycle\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-134
-74                android:value="com.google.firebase.components.ComponentRegistrar" />
-74-->[:cloud_firestore] C:\Users\user\Desktop\Recycle-Cycle\recycle_cycle\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
-75            <meta-data
-75-->[:firebase_core] C:\Users\user\Desktop\Recycle-Cycle\recycle_cycle\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
-76                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
-76-->[:firebase_core] C:\Users\user\Desktop\Recycle-Cycle\recycle_cycle\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
-77                android:value="com.google.firebase.components.ComponentRegistrar" />
-77-->[:firebase_core] C:\Users\user\Desktop\Recycle-Cycle\recycle_cycle\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+58        <service
+58-->[:cloud_firestore] /Users/seol-yeon/Desktop/Recycle-Cycle/recycle_cycle/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+59            android:name="com.google.firebase.components.ComponentDiscoveryService"
+59-->[:cloud_firestore] /Users/seol-yeon/Desktop/Recycle-Cycle/recycle_cycle/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+60            android:directBootAware="true"
+60-->[com.google.firebase:firebase-common:20.0.0] /Users/seol-yeon/.gradle/caches/transforms-2/files-2.1/e8c12af64c0d197211b7d090cb61cdf8/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+61            android:exported="false" >
+61-->[com.google.firebase:firebase-firestore:24.0.0] /Users/seol-yeon/.gradle/caches/transforms-2/files-2.1/875fba2a3c7d150fb639a449876b754f/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:19:13-37
+62            <meta-data
+62-->[:cloud_firestore] /Users/seol-yeon/Desktop/Recycle-Cycle/recycle_cycle/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+63                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+63-->[:cloud_firestore] /Users/seol-yeon/Desktop/Recycle-Cycle/recycle_cycle/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-134
+64                android:value="com.google.firebase.components.ComponentRegistrar" />
+64-->[:cloud_firestore] /Users/seol-yeon/Desktop/Recycle-Cycle/recycle_cycle/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+65            <meta-data
+65-->[:firebase_core] /Users/seol-yeon/Desktop/Recycle-Cycle/recycle_cycle/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+66                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+66-->[:firebase_core] /Users/seol-yeon/Desktop/Recycle-Cycle/recycle_cycle/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+67                android:value="com.google.firebase.components.ComponentRegistrar" />
+67-->[:firebase_core] /Users/seol-yeon/Desktop/Recycle-Cycle/recycle_cycle/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+68            <meta-data
+68-->[com.google.firebase:firebase-firestore:24.0.0] /Users/seol-yeon/.gradle/caches/transforms-2/files-2.1/875fba2a3c7d150fb639a449876b754f/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:20:13-22:85
+69                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+69-->[com.google.firebase:firebase-firestore:24.0.0] /Users/seol-yeon/.gradle/caches/transforms-2/files-2.1/875fba2a3c7d150fb639a449876b754f/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:21:17-111
+70                android:value="com.google.firebase.components.ComponentRegistrar" />
+70-->[com.google.firebase:firebase-firestore:24.0.0] /Users/seol-yeon/.gradle/caches/transforms-2/files-2.1/875fba2a3c7d150fb639a449876b754f/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:22:17-82
+71        </service>
+72
+73        <provider
+73-->[:image_picker] /Users/seol-yeon/Desktop/Recycle-Cycle/recycle_cycle/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-16:20
+74            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+74-->[:image_picker] /Users/seol-yeon/Desktop/Recycle-Cycle/recycle_cycle/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-82
+75            android:authorities="com.example.recycle_cycle.flutter.image_provider"
+75-->[:image_picker] /Users/seol-yeon/Desktop/Recycle-Cycle/recycle_cycle/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-74
+76            android:exported="false"
+76-->[:image_picker] /Users/seol-yeon/Desktop/Recycle-Cycle/recycle_cycle/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-37
+77            android:grantUriPermissions="true" >
+77-->[:image_picker] /Users/seol-yeon/Desktop/Recycle-Cycle/recycle_cycle/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-47
 78            <meta-data
-78-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\875fba2a3c7d150fb639a449876b754f\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:20:13-22:85
-79                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
-79-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\875fba2a3c7d150fb639a449876b754f\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:21:17-111
-80                android:value="com.google.firebase.components.ComponentRegistrar" />
-80-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\875fba2a3c7d150fb639a449876b754f\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:22:17-82
-81        </service>
-82
-83        <provider
-83-->[com.google.firebase:firebase-common:20.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\e8c12af64c0d197211b7d090cb61cdf8\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
-84            android:name="com.google.firebase.provider.FirebaseInitProvider"
-84-->[com.google.firebase:firebase-common:20.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\e8c12af64c0d197211b7d090cb61cdf8\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
-85            android:authorities="com.example.recycle_cycle.firebaseinitprovider"
-85-->[com.google.firebase:firebase-common:20.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\e8c12af64c0d197211b7d090cb61cdf8\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
-86            android:directBootAware="true"
-86-->[com.google.firebase:firebase-common:20.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\e8c12af64c0d197211b7d090cb61cdf8\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
-87            android:exported="false"
-87-->[com.google.firebase:firebase-common:20.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\e8c12af64c0d197211b7d090cb61cdf8\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
-88            android:initOrder="100" />
-88-->[com.google.firebase:firebase-common:20.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\e8c12af64c0d197211b7d090cb61cdf8\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
-89
-90        <activity
-90-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\0813e45a0b3806629b40dbeb70c75a60\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
-91            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-91-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\0813e45a0b3806629b40dbeb70c75a60\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
-92            android:exported="false"
-92-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\0813e45a0b3806629b40dbeb70c75a60\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
-93            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-93-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\0813e45a0b3806629b40dbeb70c75a60\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
-94
-95        <meta-data
-95-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\e31537fb3ca3accaea0d4d9ddb9631cc\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
-96            android:name="com.google.android.gms.version"
-96-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\e31537fb3ca3accaea0d4d9ddb9631cc\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
-97            android:value="@integer/google_play_services_version" />
-97-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\e31537fb3ca3accaea0d4d9ddb9631cc\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
-98    </application>
-99
-100</manifest>
+78-->[:image_picker] /Users/seol-yeon/Desktop/Recycle-Cycle/recycle_cycle/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-15:75
+79                android:name="android.support.FILE_PROVIDER_PATHS"
+79-->[:image_picker] /Users/seol-yeon/Desktop/Recycle-Cycle/recycle_cycle/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-67
+80                android:resource="@xml/flutter_image_picker_file_paths" />
+80-->[:image_picker] /Users/seol-yeon/Desktop/Recycle-Cycle/recycle_cycle/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-72
+81        </provider>
+82        <provider
+82-->[com.google.firebase:firebase-common:20.0.0] /Users/seol-yeon/.gradle/caches/transforms-2/files-2.1/e8c12af64c0d197211b7d090cb61cdf8/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+83            android:name="com.google.firebase.provider.FirebaseInitProvider"
+83-->[com.google.firebase:firebase-common:20.0.0] /Users/seol-yeon/.gradle/caches/transforms-2/files-2.1/e8c12af64c0d197211b7d090cb61cdf8/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+84            android:authorities="com.example.recycle_cycle.firebaseinitprovider"
+84-->[com.google.firebase:firebase-common:20.0.0] /Users/seol-yeon/.gradle/caches/transforms-2/files-2.1/e8c12af64c0d197211b7d090cb61cdf8/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+85            android:directBootAware="true"
+85-->[com.google.firebase:firebase-common:20.0.0] /Users/seol-yeon/.gradle/caches/transforms-2/files-2.1/e8c12af64c0d197211b7d090cb61cdf8/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+86            android:exported="false"
+86-->[com.google.firebase:firebase-common:20.0.0] /Users/seol-yeon/.gradle/caches/transforms-2/files-2.1/e8c12af64c0d197211b7d090cb61cdf8/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+87            android:initOrder="100" />
+87-->[com.google.firebase:firebase-common:20.0.0] /Users/seol-yeon/.gradle/caches/transforms-2/files-2.1/e8c12af64c0d197211b7d090cb61cdf8/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+88
+89        <activity
+89-->[com.google.android.gms:play-services-base:17.1.0] /Users/seol-yeon/.gradle/caches/transforms-2/files-2.1/0813e45a0b3806629b40dbeb70c75a60/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+90            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+90-->[com.google.android.gms:play-services-base:17.1.0] /Users/seol-yeon/.gradle/caches/transforms-2/files-2.1/0813e45a0b3806629b40dbeb70c75a60/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+91            android:exported="false"
+91-->[com.google.android.gms:play-services-base:17.1.0] /Users/seol-yeon/.gradle/caches/transforms-2/files-2.1/0813e45a0b3806629b40dbeb70c75a60/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+92            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+92-->[com.google.android.gms:play-services-base:17.1.0] /Users/seol-yeon/.gradle/caches/transforms-2/files-2.1/0813e45a0b3806629b40dbeb70c75a60/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+93
+94        <meta-data
+94-->[com.google.android.gms:play-services-basement:17.0.0] /Users/seol-yeon/.gradle/caches/transforms-2/files-2.1/e31537fb3ca3accaea0d4d9ddb9631cc/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+95            android:name="com.google.android.gms.version"
+95-->[com.google.android.gms:play-services-basement:17.0.0] /Users/seol-yeon/.gradle/caches/transforms-2/files-2.1/e31537fb3ca3accaea0d4d9ddb9631cc/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+96            android:value="@integer/google_play_services_version" />
+96-->[com.google.android.gms:play-services-basement:17.0.0] /Users/seol-yeon/.gradle/caches/transforms-2/files-2.1/e31537fb3ca3accaea0d4d9ddb9631cc/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+97    </application>
+98
+99</manifest>

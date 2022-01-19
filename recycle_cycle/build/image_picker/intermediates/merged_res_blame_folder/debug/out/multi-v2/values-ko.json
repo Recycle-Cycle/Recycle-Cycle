@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\user\\Desktop\\Recycle-Cycle\\recycle_cycle\\build\\image_picker\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ko\\values-ko.xml",
+            "outputFile": "/Users/seol-yeon/Desktop/Recycle-Cycle/recycle_cycle/build/image_picker/intermediates/res/merged/debug/values-ko/values-ko.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-2\\files-2.1\\8ec5a4192b12a309556d408337153575\\core-1.6.0\\res\\values-ko\\values-ko.xml",
+                    "source": "/Users/seol-yeon/.gradle/caches/transforms-2/files-2.1/8ec5a4192b12a309556d408337153575/core-1.6.0/res/values-ko/values-ko.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -16,10 +16,10 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\user\\Desktop\\Recycle-Cycle\\recycle_cycle\\build\\image_picker\\intermediates\\res\\merged\\debug\\values-ko\\values-ko.xml",
+            "outputFile": "/Users/seol-yeon/Desktop/Recycle-Cycle/recycle_cycle/build/image_picker/intermediates/incremental/mergeDebugResources/merged.dir/values-ko/values-ko.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-2\\files-2.1\\8ec5a4192b12a309556d408337153575\\core-1.6.0\\res\\values-ko\\values-ko.xml",
+                    "source": "/Users/seol-yeon/.gradle/caches/transforms-2/files-2.1/8ec5a4192b12a309556d408337153575/core-1.6.0/res/values-ko/values-ko.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
