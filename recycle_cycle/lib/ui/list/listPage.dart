@@ -1,5 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
 import 'package:recycle_cycle/model/trash.dart';
 
 class ListPage extends StatefulWidget {
@@ -97,7 +98,8 @@ class _listPageState extends State<ListPage> {
 
     // datetime 파싱
     DateTime currTime = currTrash.timestamp.toDate();
-    String timeString = currTime.month.toString() + "-" + currTime.day.toString() + " " + currTime.hour.toString() + ":" + currTime.minute.toString();
+    String timeString = DateFormat('MM-dd kk:mm').format(currTime);
+    //String timeString = currTime.month.toString() + "-" + currTime.day.toString() + " " + currTime.hour.toString() + ":" + currTime.minute.toString();
 
     // 리스트뷰 한 칸 꾸미기
     return Container(
