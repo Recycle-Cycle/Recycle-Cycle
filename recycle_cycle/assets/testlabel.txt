@@ -1,2 +1,4 @@
-0 dog
-1 cat
+0 metal
+1 glass
+2 paper
+3 plastic
